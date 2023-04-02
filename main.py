@@ -146,4 +146,4 @@ if st.button('Make Prediction'):
     diagnosis = "Yes" if prediction == 1 else "No"
     print("final diagnosis: ", diagnosis)
     st.write(f"From our model prediction, the final diagnosis is: ",diagnosis)
-    st.write(f"Thank you {st.session_state.name} testing our model! I hope you liked it.")
+    st.write(f"Thank you {st.session_state.name} for testing our model! I hope you liked it.")
