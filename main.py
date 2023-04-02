@@ -7,12 +7,12 @@ st.header("Endometriosis Prediction App")
 st.text_input("Enter your Name: ", key="name")
 
 #creat the dataframe
-data = pd.read_excel("CleanDataset0.xlsx")
+data = pd.read_excel("https://github.com/maxime-pan/SOEN471/blob/master/CleanDataset0.xlsx")
 
 # load model
-best_model = load('rf.joblib')  #loading Fandom Forest Classifier model
-#best_model = load('lr.joblib')  #loading Logistic Regression model
-#best_model = load('svc.joblib')  #loading SVM Classification model
+best_model = load('https://github.com/maxime-pan/SOEN471/blob/master/rf.joblib')  #loading Fandom Forest Classifier model
+#best_model = load('https://github.com/maxime-pan/SOEN471/blob/master/lr.joblib')  #loading Logistic Regression model
+#best_model = load('https://github.com/maxime-pan/SOEN471/blob/master/svc.joblib')  #loading SVM Classification model
 
 #list the dataframe by check
 if st.checkbox('Show Training Dataframe'):
