@@ -1,4 +1,3 @@
-#pip install joblib
 import streamlit as st
 import numpy as np
 from joblib import load  #for loading saved model
