@@ -1,3 +1,4 @@
+pip install --upgrade pip
 pip install joblib
 import streamlit as st
 import numpy as np
