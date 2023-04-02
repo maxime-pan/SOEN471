@@ -1,9 +1,4 @@
 import streamlit as st
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import  LabelEncoder
-from sklearn.ensemble import RandomForestRegressor
-import xgboost as xgb
 import numpy as np
 from joblib import load  #for loading saved model
 
